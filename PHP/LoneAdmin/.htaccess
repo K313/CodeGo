@@ -1,0 +1,6 @@
+
+ErrorDocument 300 /nocache/index.php
+ErrorDocument 404 /nocache/index.php
+
+LimitRequestBody 1000
+
