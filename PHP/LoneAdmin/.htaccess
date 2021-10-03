@@ -1,7 +1,0 @@
-
-ErrorDocument 300 /admin/index.php
-ErrorDocument 404 /admin/index.php
-
-LimitRequestBody 1000
-LimitXMLRequestBody 1
-
