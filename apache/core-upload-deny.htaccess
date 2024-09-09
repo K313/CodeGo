@@ -1,0 +1,15 @@
+#!~/.htaccess
+
+# Dependencies:
+# apache >= 2.0; ( >= 1.0 )?;
+# module - (build in core);
+# AllowOverride || AllowOverrideList: .+ || LimitRequestBody LimitXMLRequestBody
+
+LimitRequestBody  1
+LimitXMLRequestBody  1
+
+# Legend:
+# 
+#
+#
+#
