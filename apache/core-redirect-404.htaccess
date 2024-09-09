@@ -1,7 +1,7 @@
 #!~/.htaccess
 
 # Dependencies:
-# apache >= 2.0;
+# apache >= 2.0; ( >= 1.0 )?;
 # module - (build in core);
 # AllowOverride/AllowOverrideList: FileInfo/ErrorDocument
 
@@ -9,7 +9,7 @@ ErrorDocument  404  /index.php
 ErrorDocument  403  /index.php
 
 # Legend:
-# All requests for non-existent or access denied paths 
+# All requests for non-existent or access-denied paths 
 # are translated internally into /index.php
 # without use RewriteRule.
 #
